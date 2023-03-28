@@ -1,0 +1,5 @@
+build --bes_results_url=https://app.buildbuddy.io/invocation/
+build --bes_backend=grpcs://remote.buildbuddy.io
+
+<!-- Replace <YOUR TOKEN> with you own secret -->
+<!-- build --remote_header=x-buildbuddy-api-key=<YOUT TOKEN> -->
